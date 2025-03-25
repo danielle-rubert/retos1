@@ -1,4 +1,7 @@
-export class Mobile {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Mobile = void 0;
+class Mobile {
     constructor(name, trademark, model, color, price) {
         this.name = name;
         this.trademark = trademark;
@@ -45,3 +48,4 @@ export class Mobile {
         console.log(`Price: ${this.price}`);
     }
 }
+exports.Mobile = Mobile;
